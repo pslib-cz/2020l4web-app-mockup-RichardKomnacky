@@ -17,7 +17,7 @@ App Mockup
 * Hráč má možnost vybrat si uživatelské jméno
 * Hra zaznamenává každé dosažené skóre do tabulky výsledků
 
-<h3>PRAVIDLA HRY</h3>
+<h2>PRAVIDLA HRY</h2>
 
 * Hra je rozdělena do tří obtížností
 * Rozdíl v jednotlivých obtížnostech spočívá v počtu životů, počtu min rozsetých v herním minovém poli a ve velikosti minového pole
@@ -34,6 +34,7 @@ App Mockup
 * Skóre z dané hry se definuje sčítáním získaných bodů
 * Pokud hráči dojdou životy, hra končí a jeho dosavadní získaný počet bodů tak udává jeho skóre
 * Za minu, která ukončí hráčovu hru, se neodčítají žádné body
+* V případě odkrytí všech políček, krom políček s minou, hra končí a hráč získává plný počet bodů pro danou obtížnost v daném poli, stává se tedy vítězem
 
 <h2>ORIENTACE VE HŘE</h2>
 
@@ -44,5 +45,14 @@ App Mockup
 * Při odkrytí bodovaného pole, se odstním změní na tmavý a objeví se ikona hodnoty daného pole (číslo 1/2/3/4)
 * Při odkrytí miny, se barva změní na rudou a objeví se ikona miny
 
+* V pravé straně od minového pole, by se nacházela takzvaná výdleková tabule
+* Tabule bude ukazovat současně dosažené skóre v dané hře
+* Bude se zde nacházet tabulka s pěti historicky nejlepšími výsledky uživatele z dané obtížnosti
+
+* Bude zde také prostor pro nápis, který se bude měnit
+* V případě prázdného pole se objeví nápis "Kousek vedle"
+* V případě bodovaného pole se objeví nápis "Skvělý tah"
+* V případě pole s minou se objeví nápis "Šlápl jsi na minu"
+* V případě pole s minou v situaci, kdy hráči zbývá poslední život se objeví nápis "Konec hry"
 
 
