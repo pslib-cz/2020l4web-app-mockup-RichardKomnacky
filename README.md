@@ -1,0 +1,48 @@
+# 2020l4web-app-mockup-RichardKomnacky
+2020l4web-app-mockup-RichardKomnacky created by GitHub Classroom
+
+
+<h1>MINE FIELD</h1>
+
+App Mockup
+
+<h2>O HŘE</h2>
+
+* Hra je dostupná na systémech Android a Windows
+* Je určena pro krátkodobé zaměstnání a zabavení uživatele
+* Je určena pro nenáročné uživatele
+* Hra je inspirována starou klasikou Minesweeper
+
+* Pro vstup do aplikace je důležité přihlášení pomocí emailové adresy nebo facebooku
+* Hráč má možnost vybrat si uživatelské jméno
+* Hra zaznamenává každé dosažené skóre do tabulky výsledků
+
+<h3>PRAVIDLA HRY</h3>
+
+* Hra je rozdělena do tří obtížností
+* Rozdíl v jednotlivých obtížnostech spočívá v počtu životů, počtu min rozsetých v herním minovém poli a ve velikosti minového pole
+* <b>Nováček</b> => 3 životy, 10 min, pole 30x30
+* <b>Pokročilý</b> => 2 životy, 18 min, pole 40x40
+* <b>Zkušený</b> => 1 život, 25 min, pole 50x50
+
+* Hra spočívá v postupném odkrývání všech políček na poli
+* Existuje několik možností, co je na políčku ukryto
+* <b>1. možnost</b> => políčko je prázdné => 0 bodů
+* <b>2. možnost</b> => políčko ukrývá hodnotu => X bodů (X = hodnota, kolik min je v okolí daného pole, směrem nahoru, vlevo, vpravo a dolů)
+* <b>3. možnost</b> => políčko ukrývá minu => -5 bodů -1 život (v případě obtížnosti "zkušený" znamená první odkrytí miny konec hry a neodčítají se žádné body)
+
+* Skóre z dané hry se definuje sčítáním získaných bodů
+* Pokud hráči dojdou životy, hra končí a jeho dosavadní získaný počet bodů tak udává jeho skóre
+* Za minu, která ukončí hráčovu hru, se neodčítají žádné body
+
+<h2>ORIENTACE VE HŘE</h2>
+
+* Minové pole bude mít vždy čtvercový obrys a bude ohraničeno rámem
+* Každé zakryté políčko bude mít čtvercový obrys, světlý odstín barvy a bude ohraničeno rámečkem
+* Každé odkryté políčko bude mít stejný obrys a rámeček, ale jeho barva se změní
+* Při odkrytí prázdného pole, se odstín změní na tmavý
+* Při odkrytí bodovaného pole, se odstním změní na tmavý a objeví se ikona hodnoty daného pole (číslo 1/2/3/4)
+* Při odkrytí miny, se barva změní na rudou a objeví se ikona miny
+
+
+
