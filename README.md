@@ -17,9 +17,9 @@ App Mockup
 
 * Hra je rozdělena do tří obtížností
 * Rozdíl v jednotlivých obtížnostech spočívá v počtu životů, počtu min rozsetých v herním minovém poli a ve velikosti minového pole
-* <b>Nováček</b> => 3 životy, 10 min, pole 15x15
-* <b>Pokročilý</b> => 2 životy, 18 min, pole 20x20
-* <b>Zkušený</b> => 1 život, 25 min, pole 25x25
+* <b>Nováček</b> => 3 životy, 10 min, pole 10x10
+* <b>Pokročilý</b> => 2 životy, 18 min, pole 15x15
+* <b>Zkušený</b> => 1 život, 25 min, pole 20x20
 
 * Hra spočívá v postupném odkrývání všech políček na poli
 * Existuje několik možností, co je na políčku ukryto
