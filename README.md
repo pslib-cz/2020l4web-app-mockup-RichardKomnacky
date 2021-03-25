@@ -1,7 +1,3 @@
-# 2020l4web-app-mockup-RichardKomnacky
-2020l4web-app-mockup-RichardKomnacky created by GitHub Classroom
-
-
 <h1>MINE FIELD</h1>
 
 App Mockup
