@@ -1,0 +1,253 @@
+@font-face {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    src: url("/Roboto/Roboto-Regular.ttf");
+}
+
+@font-face {
+    font-family: 'Roboto', sans-serif;
+    font-style: bold;
+    font-weight: 700;
+    src: url("./Roboto/Roboto-Bold.ttf");
+}
+
+@font-face {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    src: url("./Roboto/Roboto-Light.ttf");
+}
+
+@font-face {
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-weight: 400;
+    src: url("./Roboto/Roboto-Italic.ttf");
+}
+
+
+
+
+
+
+
+
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    font-family: 'Roboto';
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-columns: 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px;
+    grid-template-rows: 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px;
+    grid-gap: 3.5px;
+    padding: 5px;
+    margin: 0px;
+    border: solid 5px rgb(50, 50, 50);
+    width: fit-content;
+    height: fit-content;
+}
+
+.wrapper button {
+    background: linear-gradient(45deg, rgb(128, 128, 128), rgb(190, 190, 190));
+    border: solid 2px rgb(50, 50, 50);
+    grid-column: span 1;
+    grid-row: span 1;
+    font-size: 1.5em;
+    text-align: center;
+    align-items: center;
+    padding: 0px;
+}
+
+.wrapper button:focus {
+    background: linear-gradient(45deg, rgb(61, 61, 61), rgb(110, 110, 110));
+    border: solid 2px rgb(50, 50, 50);
+}
+
+.wrapper button:focus img {
+    visibility: visible;
+}
+
+.wrapper img {
+    height: auto;
+    width: 28px;
+    margin: auto auto;
+    padding: 0px;
+    align-items: center;
+    text-align: center;
+    visibility: hidden;
+}
+
+
+
+
+
+
+
+
+.left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 80px 0px 80px;
+    padding: 0px;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 0px 50px;
+    padding: 0px;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 2.4em;
+    padding: 20px;
+    margin: 0px;
+}
+
+.lastplay {
+    position: relative;
+    padding: 0px;
+    margin: 0px 0px 70px 0px;
+    width: 300px;
+}
+
+.lastplay p {
+    font-size: 2em;
+    font-weight: 400;
+    padding: 0px;
+    margin: 0px;
+    position: absolute;
+    top: 10px;
+    visibility: hidden;
+    display: none;
+}
+
+#No {
+    color: rgb(201, 16, 16);
+}
+
+#Yes {
+    color: rgb(6, 161, 6);
+}
+
+#Mine {
+    color: rgb(71, 71, 71);
+}
+
+#End {
+    color: rgb(0, 0, 0);
+}
+
+#Win {
+    color: rgb(214, 184, 13);
+}
+
+.scoreboard {
+    padding: 0px;
+    margin: 20px;
+}
+
+#Score {
+    font-size: 1.8em;
+    font-weight: 700;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+}
+
+#Lives {
+    font-size: 1.5em;
+    font-weight: 400;
+    padding: 5px;
+    margin: 0px;
+    text-align: center;
+}
+
+.best {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    padding: 0px;
+    margin: 0px;
+    font-size: 1.4em;
+}
+
+ul li {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    text-align: center;
+    padding: 5px 0px;
+    margin: 0px;
+}
+
+li b {
+    margin: 0px;
+    padding: 0px 10px;
+}
+
+li p {
+    margin: 0px;
+    padding: 0px 10px;
+}
+
+.buttons {
+    margin: 20px 0px 10px 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.buttons button {
+    border: none;
+    text-decoration: none;
+    padding: 5px;
+    margin: 5px;
+    font-size: 1.2em;
+    background-color: white;
+    border: solid 1px rgb(50, 50, 50);
+}
+
+
+
+/*
+
+1) Jak udělat, aby mi odkrytá pole zůstala odkrytá?
+
+2) Mám vytvářet nové rozoložení při resetu, popřípadě jak?
+
+3) Jak udělat, aby se ty nápisy objevovali když chci?
+
+4) Jak udělat sčítání hodnot do skóre?
+
+5) Jak vytvořit paměť dosaženého skóre?
+
+*/
