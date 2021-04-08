@@ -30,7 +30,7 @@ App Mockup
 * Skóre z dané hry se definuje sčítáním získaných bodů
 * Pokud hráči dojdou životy, hra končí a jeho dosavadní získaný počet bodů tak udává jeho skóre
 * Za minu, která ukončí hráčovu hru, se neodčítají žádné body
-* V případě odkrytí všech políček, krom políček s minou, hra končí a hráč získává plný počet bodů pro danou obtížnost v daném poli, stává se tedy vítězem
+* V případě odkrytí všech hodnocených políček, tedy všech krom políček s minou a prázdných, hra končí a hráč získává plný počet bodů pro danou obtížnost v daném poli, stává se tedy vítězem
 
 <h2>ORIENTACE VE HŘE</h2>
 
