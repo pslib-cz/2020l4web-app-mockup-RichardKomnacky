@@ -39,7 +39,7 @@ App Mockup
 * Každé odkryté políčko bude mít stejný obrys a rámeček, ale jeho barva se změní
 * Při odkrytí prázdného pole, se odstín změní na tmavý
 * Při odkrytí bodovaného pole, se odstním změní na tmavý a objeví se ikona hodnoty daného pole (číslo 1/2/3/4)
-* Při odkrytí miny, se barva změní na rudou a objeví se ikona miny
+* Při odkrytí miny, se odstín změní na tmavý a objeví se ikona miny
 
 * V pravé straně od minového pole, by se nacházela takzvaná výdleková tabule
 * Tabule bude ukazovat současně dosažené skóre v dané hře
