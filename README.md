@@ -4,7 +4,7 @@ App Mockup
 
 <h2>O HŘE</h2>
 
-* Hra je dostupná na systémech Android a Windows
+* Hra je dostupná na systémech IOS a Windows
 * Je určena pro krátkodobé zaměstnání a zabavení uživatele
 * Je určena pro nenáročné uživatele
 * Hra je inspirována starou klasikou Minesweeper
@@ -16,10 +16,10 @@ App Mockup
 <h2>PRAVIDLA HRY</h2>
 
 * Hra je rozdělena do tří obtížností
-* Rozdíl v jednotlivých obtížnostech spočívá v počtu životů, počtu min rozsetých v herním minovém poli a ve velikosti minového pole
+* Rozdíl v jednotlivých obtížnostech spočívá v počtu životů, počtu min rozsetých v herním minovém poli, ale velikost minového pole zůstává stejná
 * <b>Nováček</b> => 3 životy, 10 min, pole 10x10
-* <b>Pokročilý</b> => 2 životy, 18 min, pole 15x15
-* <b>Zkušený</b> => 1 život, 25 min, pole 20x20
+* <b>Pokročilý</b> => 2 životy, 18 min, pole 10x10
+* <b>Zkušený</b> => 1 život, 25 min, pole 10x10
 
 * Hra spočívá v postupném odkrývání všech políček na poli
 * Existuje několik možností, co je na políčku ukryto
@@ -50,5 +50,8 @@ App Mockup
 * V případě bodovaného pole se objeví nápis "Skvělý tah"
 * V případě pole s minou se objeví nápis "Šlápl jsi na minu"
 * V případě pole s minou v situaci, kdy hráči zbývá poslední život se objeví nápis "Konec hry"
+
+* V pravém dolním rohu, uvidí na jakou obtížnost zrovna hraje
+* Také zde má tlačítka pro resetování hry a nebo změny obtížnosti
 
 
