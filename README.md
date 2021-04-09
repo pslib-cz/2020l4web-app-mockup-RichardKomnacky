@@ -54,4 +54,6 @@ App Mockup
 * V pravém dolním rohu, uvidí na jakou obtížnost zrovna hraje
 * Také zde má tlačítka pro resetování hry a nebo změny obtížnosti
 
+* Na herním screenu je v horní části šedé záhlaví, ve kterém hráč vidí své přihlašovací jméno a tlačítko pro odlášení
+
 
